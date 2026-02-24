@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 240px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 13px;
+  color: #e0e0e0;
+  background: #1a1a2e;
+}
+
+.container {
+  padding: 16px;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: #fff;
+}
+
+.control-group {
+  margin-bottom: 14px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #b0b0c0;
+}
+
+#speed-value {
+  color: #7c8aff;
+  font-weight: 700;
+}
+
+input[type="range"] {
+  width: 100%;
+  accent-color: #7c8aff;
+  cursor: pointer;
+}
+
+.direction-toggle {
+  display: flex;
+  gap: 6px;
+}
+
+.dir-btn {
+  flex: 1;
+  padding: 6px 0;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: #252540;
+  color: #888;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.dir-btn.active {
+  background: #7c8aff;
+  color: #fff;
+  border-color: #7c8aff;
+}
+
+.toggle-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #7c8aff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.toggle-btn:hover {
+  background: #6b79ee;
+}
+
+.toggle-btn.active {
+  background: #ff5c5c;
+}
+
+.toggle-btn.active:hover {
+  background: #e04a4a;
+}
+
+.shortcuts {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 11px;
+  color: #666;
+}
+
+.shortcuts span {
+  color: #888;
+  font-weight: 600;
+}

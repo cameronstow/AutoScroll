@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ScrollTool</h1>
+
+    <div class="control-group">
+      <label>Speed: <span id="speed-value">80</span> px/s</label>
+      <input type="range" id="speed" min="10" max="500" step="10" value="80">
+    </div>
+
+    <div class="control-group">
+      <label>Direction</label>
+      <div class="direction-toggle">
+        <button id="dir-up" class="dir-btn">Up</button>
+        <button id="dir-down" class="dir-btn active">Down</button>
+      </div>
+    </div>
+
+    <button id="toggle" class="toggle-btn">Start</button>
+
+    <div class="shortcuts">
+      <span>Alt+S</span> toggle &nbsp;
+      <span>Alt+&uarr;/&darr;</span> speed
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

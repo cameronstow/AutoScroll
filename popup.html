@@ -23,6 +23,16 @@
 
     <button id="toggle" class="toggle-btn">Start</button>
 
+    <div id="error" style="color:#ff5c5c;font-size:11px;margin-top:8px;display:none"></div>
+
+    <div id="snippet-tip" style="display:none;margin-top:10px;padding:8px;background:#252540;border-radius:6px;font-size:11px;color:#b0b0c0;">
+      Paste in console (Cmd+Option+J).<br>Run again to stop.
+      <div style="position:relative;margin-top:6px;">
+        <pre id="snippet-code" style="background:#1a1a2e;padding:6px;border-radius:4px;font-size:10px;overflow-x:auto;white-space:pre-wrap;word-break:break-all;max-height:60px;margin:0;color:#8888aa;"></pre>
+        <button id="copy-btn" style="position:absolute;top:4px;right:4px;background:#7c8aff;color:#fff;border:none;border-radius:3px;padding:2px 8px;font-size:10px;cursor:pointer;font-weight:600;">Copy</button>
+      </div>
+    </div>
+
     <div class="shortcuts">
       <span>Alt+S</span> toggle &nbsp;
       <span>Alt+&uarr;/&darr;</span> speed
